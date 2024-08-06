@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="navbar">
+    <h1>My Work</h1>
+   </div>
+   <div class="container">
+    <div class="book-container">
+        <h2>Agni siragugal</h2>
+        <h5>Dr.Abdul Kalam</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laborum autem quae! Eius, ea aspernatur nisi ratione illum totam alias sequi distinctio provident libero molestiae non accusamus fugit? Magnam, ex?</p>
+        <button onclick="deletebook(event)">Delete</button>
+    </div>
+  
+   </div>
+
+   <div class="popup-overlay"></div>
+   <div class="popup-box">
+       <h2>My Work</h2>
+       <form>
+          <input type="text" placeholder="Title" id="book-title-input">
+          <input type="text" placeholder="To Do" id="book-author-input">
+          <textarea placeholder="Short Description" id="book-description-input"></textarea>
+          <button id="add-book">ADD</buttton>
+          <button id="cancel-popup">CANCEL</button>
+       </form>
+   </div>
+
+   <button class="add-button" id="add-popup-button">+</button>
+   <script src="script.js"></script>
+</body>
+</html>
